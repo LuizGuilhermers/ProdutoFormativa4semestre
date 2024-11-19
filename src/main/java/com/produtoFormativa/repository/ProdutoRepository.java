@@ -1,0 +1,9 @@
+package com.produtoFormativa.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.produtoFormativa.entities.Produto;
+
+public interface ProdutoRepository  extends JpaRepository<Produto, Long>{
+
+}
